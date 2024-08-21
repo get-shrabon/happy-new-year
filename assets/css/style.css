@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* When you start your css , first step is below */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: work sans;
+}
+
+/* Global classes  */
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* Banner section css start */
+.banner-container {
+	width: 100%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-image: url("../img/banner_bg.png");
+	background-position: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner-content {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+}
+.banner-info {
+	text-align: right;
+}
+.banner-info h2 {
+	font-size: 65px;
+	font-weight: 700;
+}
+.banner-info p {
+	color: #444343;
+	line-height: 26px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.banner-info button {
+	color: white;
+	background-color: #f15b22;
+	padding: 20px 25px;
+	border-radius: 8px;
+	border: 0;
+	outline: 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+/* Banner section css end */
+
+/* Failure section css start */
+.failure-container {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	justify-content: center;
+	gap: 87px;
+}
+.failure-img img {
+	max-width: 100%;
+}
+.failure-info h3 {
+	font-size: 40px;
+	font-weight: 700;
+}
+.failure-info p {
+	color: #444343;
+	line-height: 26px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.failure-info ul {
+	list-style: none;
+}
+.failure-info ul li {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: #444343;
+	line-height: 26px;
+}
+.failure-info ul li i {
+	color: #16d887;
+}
+/* Failure section css end */

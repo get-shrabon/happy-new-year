@@ -1,0 +1,7 @@
+
+
+
+1=> basic project setup
+2=> What is html and why html?
+3=> what is css and why use the css?
+4=> html and css basic setup and basic structure.
